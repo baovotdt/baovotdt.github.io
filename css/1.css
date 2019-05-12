@@ -34,7 +34,7 @@ li.nav-item{
 
 .navbar-light .navbar-nav .nav-link{
 	color: white;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 @media (max-width: 576px){
@@ -118,7 +118,7 @@ body, html{
 }
 
 .tt h2{
-	font-size: 40px;
+	font-size: 35px;
 	text-transform: uppercase;
 	color: white;
 	margin-bottom: 22px;
@@ -138,5 +138,10 @@ a.nuthire.btn.btn-primary{
 	background: black;
 	border: none;
 	border-radius: 0px;
+}
+
+.img-fluid{
+	width: 100%;
+	height: 100%
 }
 
