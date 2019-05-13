@@ -245,7 +245,7 @@ span.motaqt{
 	margin-left: -2px;
 }
 
-.blockttnho.text-sm-left.text-xs-center {
+.myskill .blockttnho.text-sm-left.text-xs-center {
     margin-left: 30%;
 }
 
@@ -263,4 +263,8 @@ span.motaqt{
 .small, small {
     font-size: 80%;
     font-weight: 400;
+}
+
+.myskill{
+	margin-bottom: 90px;
 }
