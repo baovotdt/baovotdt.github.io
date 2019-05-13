@@ -100,13 +100,13 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     width: 100%;
 }
 
-.blocktt1{
+.blockinform{
 	height: 100%;
 	width: 100%;
 	background: #0ccaaf;
 }
 
-.blocktt1:before {
+.blockinform:before {
     content: "";
     position: absolute;
     left: 0;
@@ -142,6 +142,13 @@ body, html{
 	margin-bottom: 22px;
 }
 
+.tt h3{
+	font-size: 25px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 22px;
+}
+
 .tt p{
 	color: black;
 	font-size: 14px;
@@ -155,7 +162,7 @@ a.nuthire.btn.btn-primary{
 	width: 180px;
 	background: black;
 	border: none;
-	border-radius: 0px;
+	border-radius: 10px;
 }
 
 .img-fluid{
@@ -187,7 +194,7 @@ span.tieumuc1{
 	font-family: segoe ui;
 }
 
-.blocktt1 h3.tieudecap3{
+.blockinform h3.tieudecap3{
 	font-size: 16px;
 	color: black;
 	margin-bottom: 20px;
@@ -236,4 +243,24 @@ span.motaqt{
 	left: 50%;
 	bottom: 67%;
 	margin-left: -2px;
+}
+
+.blockttnho.text-sm-left.text-xs-center {
+    margin-left: 30%;
+}
+
+.by.text-center {
+    width: 100%;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
 }

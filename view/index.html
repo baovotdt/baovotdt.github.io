@@ -6,10 +6,10 @@
  	 <meta charset="utf-8">
  	 <meta name="viewport" content="width=device-width, initial-scale=1">
  	 <script type="text/javascript" src="../vendor/bootstrap.js"></script>
- 	 <script type="text/javascript" src="../js/1.js"></script>
+ 	 <script type="text/javascript" src="../js/jquery.js"></script>
  	 <link rel="stylesheet" href="../vendor/bootstrap.css">
  	 <link rel="stylesheet" href="../vendor/font-awesome.css">
- 	 <link rel="stylesheet" href="../css/1.css">
+ 	 <link rel="stylesheet" href="../css/layout.css">
 </head>
 	<body>
 		<div class="menutop">
@@ -20,11 +20,8 @@
 						<li class="nav-item">
 							<a class="nav-link about" href="#">About</a>
 						</li>
-						<li class="nav-item experience">
-							<a class="nav-link" href="#">Experience</a>
-						</li>
-						<li class="nav-item project">
-							<a class="nav-link" href="#">Project</a>
+						<li class="nav-item skill">
+							<a class="nav-link" href="#">Skill</a>
 						</li>
 						<li class="nav-item contact">
 							<a class="nav-link" href="#">Contact</a>
@@ -34,52 +31,139 @@
 			</nav>
  		</div> <!--MenuTop -->
 
- 		<div class="blocktt1">	
+ 		<div class="blockinform">	
  			<div class="container text-xs-center">
  				<div class="tt">
- 					<img src="../images/avatar.png" alt="Hinh dai dien Gia Bao">
+ 					<img src="../images/avatar.png" alt="Avatar Gia Bao">
  					<h2>Võ Lâm Gia Bảo</h2>
  					<a href="" class="nuthire btn btn-primary">Contact me</a>
  				</div>
  				<div class="btn2page"></div>
  			</div>
- 		</div>	 <!--Blocktt1 -->
+ 		</div>	 <!--Block head-->
 
  		<div class="aboutme" id="blockabout">
  			<div class="container">
  				<div class="row">
-
  					<div class="col-sm-12 tieudeto text-xs-center">
  						<h1>About me</h1>
  					</div>
-
  					<div class="col-sm-4 cot1_3">
- 						<h2 class="tieudecap2 text-sm-right text-xs-center">Learning in<span class="tieumuc1">University</span></h2>
+ 						<h2 class="tieudecap2 text-sm-right text-xs-center">Basic <span class="tieumuc1">Information</span></h2>
  						<div class="blockttnho text-sm-right text-xs-center">
- 							<h3 class="tieudecap3">Ton Duc Thang</h3>
- 							<span class="motaqt">Software Developer</span>
- 							<p>HCSDL</p>
+ 							<h3 class="tieudecap3">Date of birth</h3>
+ 							<span class="motaqt">July 6, 1997</span>
+ 							<h3 class="tieudecap3">Gender</h3>
+ 							<span class="motaqt">Male</span>
+ 							<h3 class="tieudecap3">Phone</h3>
+ 							<span class="motaqt">0967746928</span>	
+ 							<h3 class="tieudecap3">Email</h3>
+ 							<span class="motaqt">gbao.dev@gmail.com</span>
+ 							<h3 class="tieudecap3">Facebook URL</h3>
+ 							<span class="motaqt"><a href="https://www.facebook.com/baovotdt"><p>Facebook.com/baovotdt</p></a></span>
  						</div>
  					</div>	<!-- Col 4/1-->
 
  					<div class="col-sm-4 cot2_3">
- 						<img src="../images/avatar.png" class="img-fluid"></img>
  					</div>	
 
  					<div class="col-sm-4 cot3_3">
- 						<h2 class="tieudecap2 text-sm-left text-xs-center">Learning in<span class="tieumuc1">University</span></h2>
+ 						<h2 class="tieudecap2 text-sm-left text-xs-center">Study <span class="tieumuc1">Process</span></h2>
  						<div class="blockttnho text-sm-left text-xs-center">
  							<h3 class="tieudecap3">Ton Duc Thang</h3>
- 							<span class="motaqt">Software Developer</span>
- 							<p>HCSDL</p>
+ 							<span class="motaqt">Student</span>
+ 							<p>Now, I'm studying Software Engineering major at Ton Duc Thang University.</p>
+ 						</div>
+ 						<div class="blockttnho text-sm-left text-xs-center">
+ 							<h3 class="tieudecap3">Gameloft</h3>
+ 							<span class="motaqt">Interns</span>
+ 							<p>I have participated internship at gameloft in a 2-month. I learned more about the language of C++, being trained in OpenGL in here.</p>
  						</div>
  					</div>	<!-- Col 4/1-->
-
-
  				</div>
-
  			</div>	
  		</div> <!--About me-->
+
+		<div class="myskill" id="blockskill">
+		 	<div class="container">
+		 		<div class="row">
+		 			<div class="col-sm-12 tieudeto text-xs-center">
+		 				<h1>My Skill</h1>
+		 			</div>
+			 		<div class="col-sm-6 cot1_2">
+			 				<div class="blockttnho text-sm-left text-xs-center">
+			 					<h3 class="tieudecap3">+ Java Core</h3>
+			 					<span class="motaqt">Regular expression, Data Structure</span>
+			 					<h3 class="tieudecap3">+ C/C++</h3>
+			 					<span class="motaqt">Pointer, OpenGL</span>
+								<h3 class="tieudecap3">+ HTML/CSS/Javascript</h3>
+			 					<span class="motaqt">HTML 5, CSS 3</span>
+			 					<h3 class="tieudecap3">+ Bootstrap/Jquery</h3>
+			 					<span class="motaqt">Bootstrap 4</span>
+			 				</div>
+			 		</div>	<!-- Col 6/1-->
+
+	
+			 		<div class="col-sm-6 cot2_2">
+			 			<div class="blockttnho text-sm-left text-xs-center">
+			 				<h3 class="tieudecap3">+ Database</h3>
+			 				<span class="motaqt">Microsoft SQL Server</span>
+			 				<h3 class="tieudecap3">+ Knowledge for OOP</h3>
+			 				<span class="motaqt">Application into the language learned</span>
+			 				<h3 class="tieudecap3">+ Agile Scrum</h3>
+			 				<span class="motaqt">Certificate Scrum from Axon Active</span>
+			 				<h3 class="tieudecap3">+ Design Pattern</h3>
+			 				<span class="motaqt">Singleton, Strategy, Template, v.v. </span>
+			 			</div>
+			 			
+			 		</div>	<!-- Col 6/2-->
+		 		</div>
+		 	</div>	
+		 </div> <!--Skill-->
+
+		 <div class="contact" id="blockcontact">
+		 	<div class="container">
+		 		<div class="row">
+		 			<div class="col-sm-12 tieudeto text-xs-center">
+		 				<h1>Contact me</h1>
+		 			</div>
+			 		<div class="col-sm-6 cot1_2">
+			 				<div class="blockttnho text-sm-left text-xs-center">
+			 					<h3 class="tieudecap3">+ Java Core</h3>
+			 					<span class="motaqt">Regular expression, Data Structure</span>
+			 					<h3 class="tieudecap3">+ C/C++</h3>
+			 					<span class="motaqt">Pointer, OpenGL</span>
+								<h3 class="tieudecap3">+ HTML/CSS/Javascript</h3>
+			 					<span class="motaqt">HTML 5, CSS 3</span>
+			 					<h3 class="tieudecap3">+ Bootstrap/Jquery</h3>
+			 					<span class="motaqt">Bootstrap 4</span>
+			 				</div>
+			 		</div>	<!-- Col 6/1-->
+
+	
+			 		<div class="col-sm-6 cot2_2">
+			 			<div class="blockttnho text-sm-left text-xs-center">
+			 				<h3 class="tieudecap3">+ Database</h3>
+			 				<span class="motaqt">Microsoft SQL Server</span>
+			 				<h3 class="tieudecap3">+ Knowledge for OOP</h3>
+			 				<span class="motaqt">Application into the language learned</span>
+			 				<h3 class="tieudecap3">+ Agile Scrum</h3>
+			 				<span class="motaqt">Certificate Scrum from Axon Active</span>
+			 				<h3 class="tieudecap3">+ Design Pattern</h3>
+			 				<span class="motaqt">Singleton, Strategy, Template, v.v. </span>
+			 			</div>
+			 			
+			 		</div>	<!-- Col 6/2-->
+		 		</div>
+		 	</div>	
+		 </div> <!--Contact-->
+
+
+		 <footer>
+		 	<div class="by text-center"><small>© Copyright 2019. All Rights Reserved.</small></div>
+
+
+		 </footer>	
 
 	</body>
 </html>
