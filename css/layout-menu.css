@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+}
+
+.brandLogo {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    z-index: 1;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-name: rubberBand;
+    animation-delay: 0.4s;
+
+}
+
+a.navbar-brand {
+    width: 80px;
+    height: 80px;
+    padding: 15px 0px !important;
+}
+
+img#imgLogo {
+    height: 80px;
+    width: 80px;
+    margin-top: -15px !important;
+}
+
+div#myNavbar {
+    margin-bottom: 0px;
+    margin-top: -65px;
+    z-index: 2;
+    text-align: center;
+    height: 65px !important;
+}
+
+.navbar-header {
+    width: 100%;
+}
+
+ul.nav.navbar-nav {
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
+.navbar-toggle:active {
+    margin-top: 25px;
+    margin-right: 50px !important;
+}
+
+.navbar-toggle:hover {
+    margin-top: 25px;
+    margin-right: 50px !important;
+}
+
+.navbar-toggle {
+    margin-top: 25px !important;
+    margin-right: 50px !important;
+}
+
+li {
+    display: inline-block !important;
+    width: 100px;
+    height: 50px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    text-decoration: underline !important;
+}
+
+li a:focus {
+    background-color: white;
+    text-decoration: underline !important;
+}
+
+li a.active:active {
+    background-color: white;
+    text-decoration: underline !important;
+}
+
+@media (max-width: 767px) {
+    .brandLogo {
+        margin-left: 100px;
+    }
+
+    div#myNavbar {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        z-index: 2;
+        height: auto !important;
+    }
+
+    .container.col {
+        width: auto !important;
+        height: 50px;
+        display: inline-block;
+    }
+
+    .container.col.none {
+        display: none;
+    }
+
+    ul.nav.navbar-nav {
+        font-size: 15px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        width: auto !important;
+        height: auto;
+    }
+
+    li {
+        display: inline-block !important;
+        width: auto;
+        height: auto;
+    }
+
+    .container.col {
+        width: auto !important;
+        height: 50px;
+        display: inline-block;
+        padding: 0 0;
+    }
+
+}
+
+.container.col {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+/*300*/
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fefefe !important;
+}
+
+
+li.animated.bounce {
+    visibility: visible;
+    animation-duration: 1s;
+    animation-name: bounceInDown;
+    padding: 0 0;
+}

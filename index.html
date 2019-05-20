@@ -2,130 +2,176 @@
 <html lang="en" dir="ltr">
 
 <head>
-  	<title>CV Gia Bảo</title>
- 	 <meta charset="utf-8">
- 	 <meta name="viewport" content="width=device-width, initial-scale=1">
- 	 <script type="text/javascript" src="../vendor/bootstrap.js"></script>
- 	 <script type="text/javascript" src="../js/jquery.js"></script>
- 	 <link rel="stylesheet" href="../vendor/bootstrap.css">
- 	 <link rel="stylesheet" href="../vendor/font-awesome.css">
- 	 <link rel="stylesheet" href="../css/layout.css">
+    <title>CV Gia Bảo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/layout-body.css">
+    <link rel="stylesheet" href="./css/layout-menu.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-	<body>
-		<div class="menutop">
-			<nav class="navbar navbar-light bg-faded navbar-fixed-top">
-				<div class="container">
-					<a class="navbar-brand" href="#"><img src="../images/logo-XrosHeart.png" alt="Logo web Gia Bao" id="imgLogo"></a>
-					<ul class="nav navbar-nav float-xs-right" >
-						<li class="nav-item">
-							<a class="nav-link about" href="#">About</a>
-						</li>
-						<li class="nav-item skill">
-							<a class="nav-link" href="#">Skill</a>
-						</li>
-						<li class="nav-item contact">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-					</ul>				
-				</div>
-			</nav>
- 		</div> <!--MenuTop -->
 
- 		<div class="blockinform" id="blockcontact">	
- 			<div class="container text-xs-center">
- 				<div class="tt">
- 					<img src="../images/avatar.png" alt="Avatar Gia Bao">
- 					<h2>Võ Lâm Gia Bảo</h2>
- 					<a href="https://www.facebook.com/baovotdt" class="nuthire btn btn-primary">Contact me</a>
- 				</div>
- 				<div class="btn2page"></div>
- 			</div>
- 		</div>	 <!--Block head-->
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="brandLogo">
+                <a class="navbar-brand" href="#"><img src="./images/logo-XrosHeart.png" alt="Logo web Gia Bao" id="imgLogo"></a>
+            </div>
+            <div class="collapse navbar-collapse row" id="myNavbar">
+                <div class="container col">
+                    <ul class="nav navbar-nav ">
+                        <li class="animated bounce " style="animation-delay: 0.2s;"><a class="about" href="#">About</a></li>
+                        <li class="animated bounce " style="animation-delay: 0.4s;"><a class="skills" href="#">Skills</a></li>
+                    </ul>
+                </div>
+                <div class="container col none">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="container col">
+                    <ul class="nav navbar-nav ">
+                        <li class="animated bounce " style="animation-delay: 0.6s;"><a class="project" href="#">Project</a></li>
+                        <li class="animated bounce " style="animation-delay: 0.8s;"><a class="contact" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container body text-xs-center">
+            <h1 class="animated-bounceInLeft title">Hello every one</h1>
+            <p class="animated-bounceInUp element">Nice to meet you. My name is Bảo. Welcome to my website. This is also my own Curriculum Vitae. Thanks for visited. Wish you have a good day.</p>
+        </div>
+    </section>
+    <section id="blockabout">
+        <div class="container body">
+            <div class="row">
+                <div class="col-sm-12 text-xs-center">
+                    <h1 class="animated-bounceInRight title">About me</h1>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="animated-bounceInDown text-sm-right text-xs-center title2">Basic <span class="element2">Information</span></h2>
+                    <div class="animated-bounceInUp text-sm-right text-xs-center">
+                        <h4 class="title4">Full name: <span class="element3"><b style="text-transform: uppercase;">Võ Lâm Gia Bảo</b></span></h4>
+                        <h4 class="title4">Date of birth: <span class="element3">July 6, 1997</span></h4>
+                        <h4 class="title4">Gender: <span class="element3">Male</span></h4>
+                        <h4 class="title4">Phone: <span class="element3">0967746928</span></h4>
+                        <h4 class="title4">Email: <span class="element3">gbao.dev@gmail.com</span></h4>
+                        <h4 class="title4">Facebook URL: <span class="element3"><a href="https://www.facebook.com/baovotdt" target="_blank">facebook.com/baovotdt</a></span></h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="animated-bounceInDown text-sm-center text-xs-center title2"></h2>
+                    <div class="text-sm-center text-xs-center imgAvatar">
+                        <img src="./images/avatar.png" alt="Avatar Gia Bao">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h2 class="animated-bounceInDown text-sm-left text-xs-center title2">Study <span class="element2">Process</span></h2>
+                    <div class="animated-bounceInUp text-sm-left text-xs-center">
+                        <h3 class="title3">Ton Duc Thang University</h3>
+                        <p class="text-left">Now, I'm lerning Software Engineering major at Ton Duc Thang University.</p>
+                    </div>
+                    <div class="animated-bounceInUp text-sm-left text-xs-center">
+                        <h3 class="title3">Gameloft</h3>
+                        <p class="text-left">I have participated internship at gameloft in a 2-month. I learned more about the language of C++, being trained in OpenGL in here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="blockskills">
+            <div class="container body">
+                <div class="row">
+                    <div class="col-sm-12 text-xs-center title">
+                        <h1 class="animated-bounceInLeft title">My Skill</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-left text-xs-center text-xs-center col-1">
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.2s">+ Java Core</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.2s">Regular expression, Data Structure</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.4s">+ C/C++</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.4s">Pointer, OpenGL</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.6s">+ HTML/CSS/Javascript</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.6s">HTML 5, CSS 3, Jquery</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.8s">+ Bootstrap/Jquery</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.8s">Bootstrap 3</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="text-sm-left text-xs-center text-xs-center col-2">
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.2s">+ Database</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.2s">Microsoft SQL Server</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.4s">+ Knowledge for OOP</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.4s">Application into the language learned</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.6s">+ Agile Scrum</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.6s">Agile-Scrum course certificate of Axon Active Vietnam</div>
+                            <h3 class="animated-bounceInDown title3" style="animation-delay: 0.8s">+ Design Pattern</h3>
+                            <div class="animated-bounceInUp element4" style="animation-delay: 0.8s">Singleton, Strategy, Template, v.v. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="blockproject">
+            <div class="container body">
+                <div class="row">
+                    <div class="col-sm-12 text-xs-center">
+                        <h1 class="animated-bounceInRight title">Project</h1>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="animated-bounceInDown text-sm-right text-xs-center title2"></h2>
+                        <div class="animated-bounceInUp text-sm-right text-xs-center">
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="animated-bounceInDown text-sm-center text-xs-center title2"></h2>
+                        <div class="animated-bounceInUp text-sm-right text-xs-center">
 
- 		<div class="aboutme" id="blockabout">
- 			<div class="container">
- 				<div class="row">
- 					<div class="col-sm-12 tieudeto text-xs-center">
- 						<h1>About me</h1>
- 					</div>
- 					<div class="col-sm-4 cot1_3">
- 						<h2 class="tieudecap2 text-sm-right text-xs-center">Basic <span class="tieumuc1">Information</span></h2>
- 						<div class="blockttnho text-sm-right text-xs-center">
- 							<h3 class="tieudecap3">Date of birth</h3>
- 							<span class="motaqt">July 6, 1997</span>
- 							<h3 class="tieudecap3">Gender</h3>
- 							<span class="motaqt">Male</span>
- 							<h3 class="tieudecap3">Phone</h3>
- 							<span class="motaqt">0967746928</span>	
- 							<h3 class="tieudecap3">Email</h3>
- 							<span class="motaqt">gbao.dev@gmail.com</span>
- 							<h3 class="tieudecap3">Facebook URL</h3>
- 							<span class="motaqt"><a href="https://www.facebook.com/baovotdt"><p>Facebook.com/baovotdt</p></a></span>
- 						</div>
- 					</div>	<!-- Col 4/1-->
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="animated-bounceInDown text-sm-left text-xs-center title2"></h2>
+                        <div class="animated-bounceInUp text-sm-right text-xs-center">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="blockcontact">
+            <div class="container body">
+                <div class="row">
+                    <div class="col-sm-12 text-xs-center title">
+                        <h1 class="animated-bounceInLeft title">Contact</h1>
+                    </div>
+                    <div class="col-sm-12 text-xs-center title3">
+                        <a href="https://www.facebook.com/baovotdt" class="nuthire btn btn-primary" target="_blank">Contact me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="by text-center"><small>© Copyright 2019. All Rights Reserved.</small></div>
+    </footer>
+</body>
 
- 					<div class="col-sm-4 cot2_3">
- 					</div>	
-
- 					<div class="col-sm-4 cot3_3">
- 						<h2 class="tieudecap2 text-sm-left text-xs-center">Study <span class="tieumuc1">Process</span></h2>
- 						<div class="blockttnho text-sm-left text-xs-center">
- 							<h3 class="tieudecap3">Ton Duc Thang</h3>
- 							<span class="motaqt">Student</span>
- 							<p>Now, I'm studying Software Engineering major at Ton Duc Thang University.</p>
- 						</div>
- 						<div class="blockttnho text-sm-left text-xs-center">
- 							<h3 class="tieudecap3">Gameloft</h3>
- 							<span class="motaqt">Interns</span>
- 							<p>I have participated internship at gameloft in a 2-month. I learned more about the language of C++, being trained in OpenGL in here.</p>
- 						</div>
- 					</div>	<!-- Col 4/1-->
- 				</div>
- 			</div>	
- 		</div> <!--About me-->
-
-		<div class="myskill" id="blockskill">
-		 	<div class="container">
-		 		<div class="row">
-		 			<div class="col-sm-12 tieudeto text-xs-center">
-		 				<h1>My Skill</h1>
-		 			</div>
-			 		<div class="col-sm-6 cot1_2">
-			 				<div class="blockttnho text-sm-left text-xs-center">
-			 					<h3 class="tieudecap3">+ Java Core</h3>
-			 					<span class="motaqt">Regular expression, Data Structure</span>
-			 					<h3 class="tieudecap3">+ C/C++</h3>
-			 					<span class="motaqt">Pointer, OpenGL</span>
-								<h3 class="tieudecap3">+ HTML/CSS/Javascript</h3>
-			 					<span class="motaqt">HTML 5, CSS 3</span>
-			 					<h3 class="tieudecap3">+ Bootstrap/Jquery</h3>
-			 					<span class="motaqt">Bootstrap 4</span>
-			 				</div>
-			 		</div>	<!-- Col 6/1-->
-
-	
-			 		<div class="col-sm-6 cot2_2">
-			 			<div class="blockttnho text-sm-left text-xs-center">
-			 				<h3 class="tieudecap3">+ Database</h3>
-			 				<span class="motaqt">Microsoft SQL Server</span>
-			 				<h3 class="tieudecap3">+ Knowledge for OOP</h3>
-			 				<span class="motaqt">Application into the language learned</span>
-			 				<h3 class="tieudecap3">+ Agile Scrum</h3>
-			 				<span class="motaqt">Certificate Scrum from Axon Active</span>
-			 				<h3 class="tieudecap3">+ Design Pattern</h3>
-			 				<span class="motaqt">Singleton, Strategy, Template, v.v. </span>
-			 			</div>
-			 			
-			 		</div>	<!-- Col 6/2-->
-		 		</div>
-		 	</div>	
-		 </div> <!--Skill-->
-
-
-
-		 <footer>
-		 	<div class="by text-center"><small>© Copyright 2019. All Rights Reserved.</small></div>
-		 </footer>	
-
-	</body>
 </html>
